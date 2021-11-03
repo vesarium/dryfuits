@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listings",
+  "info": {
+    "name": "listing",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item_title": {
+      "type": "string"
+    },
+    "qty": {
+      "type": "integer"
+    },
+    "deal_type": {
+      "type": "boolean"
+    },
+    "units": {
+      "collection": "units"
+    }
+  }
+}

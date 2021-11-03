@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wantsells",
+      "handler": "wantsell.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wantsells/count",
+      "handler": "wantsell.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wantsells/:id",
+      "handler": "wantsell.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wantsells",
+      "handler": "wantsell.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wantsells/:id",
+      "handler": "wantsell.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wantsells/:id",
+      "handler": "wantsell.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

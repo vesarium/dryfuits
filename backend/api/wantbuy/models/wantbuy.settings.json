@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wantbuys",
+  "info": {
+    "name": "wantbuy"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

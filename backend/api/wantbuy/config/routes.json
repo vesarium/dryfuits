@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wantbuys",
+      "handler": "wantbuy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wantbuys/count",
+      "handler": "wantbuy.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wantbuys/:id",
+      "handler": "wantbuy.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wantbuys",
+      "handler": "wantbuy.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wantbuys/:id",
+      "handler": "wantbuy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wantbuys/:id",
+      "handler": "wantbuy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
